@@ -318,7 +318,7 @@ function PostalCodeInput({
             },
             children: [
               city.postcode,
-              " \u2014 ",
+              " - ",
               city.city
             ]
           },

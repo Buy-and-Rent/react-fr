@@ -83,7 +83,7 @@ interface PhoneInputProps extends BaseInputProps {
 
 /**
  * Autocomplete input for French addresses.
- * Uses the free api-adresse.data.gouv.fr API — no API key required.
+ * Uses the free api-adresse.data.gouv.fr API - no API key required.
  *
  * Features:
  * - Debounced search (configurable, default 300ms)
@@ -99,7 +99,7 @@ interface AddressSearchResult {
 /**
  * Hook that searches the French government address API (api-adresse.data.gouv.fr).
  * Returns matching addresses for the given query string.
- * No API key required — this is a free public API.
+ * No API key required - this is a free public API.
  *
  * @param query - Search string (e.g. "12 rue de la paix paris")
  * @param debounceMs - Debounce delay in ms (default: 300)
@@ -109,7 +109,7 @@ declare function useAddressSearch(query: string, debounceMs?: number): AddressSe
 /**
  * Input for French postal codes (code postal).
  * When a 5-digit code is entered, queries api-adresse.data.gouv.fr to suggest matching cities.
- * No API key required — this is a free public API.
+ * No API key required - this is a free public API.
  *
  * Headless: unstyled by default, accepts className and style props.
  */
@@ -118,7 +118,7 @@ declare function PostalCodeInput({ onSelect, className, style, ...inputProps }: 
 /**
  * Input for French SIRET numbers (14 digits).
  * Validates format client-side with the Luhn algorithm, then fetches company
- * data from recherche-entreprises.api.gouv.fr — no API key required.
+ * data from recherche-entreprises.api.gouv.fr - no API key required.
  *
  * Shows loading state during API fetch.
  * Headless: unstyled by default, accepts className and style props.
@@ -138,7 +138,7 @@ declare function isValidSiretFormat(siret: string): boolean;
 /**
  * Hook that looks up a SIRET number on recherche-entreprises.api.gouv.fr.
  * Validates the format client-side first (14 digits, Luhn algorithm),
- * then fetches company data from the free public API — no API key required.
+ * then fetches company data from the free public API - no API key required.
  *
  * @param siret - The 14-digit SIRET number to look up
  */
@@ -146,7 +146,7 @@ declare function useSiretLookup(siret: string): SiretLookupResult;
 
 /**
  * Input for IBAN numbers with live formatting and validation.
- * Client-side only — no API calls. Validates using the ISO 13616 checksum algorithm.
+ * Client-side only - no API calls. Validates using the ISO 13616 checksum algorithm.
  *
  * Formats as user types in groups of 4: FR76 3000 1007 ...
  * Headless: unstyled by default, accepts className and style props.
@@ -155,7 +155,7 @@ declare function IbanInput({ onChange, className, style, ...inputProps }: IbanIn
 
 /**
  * Input for French phone numbers (format: 06 12 34 56 78).
- * Client-side only — no API calls.
+ * Client-side only - no API calls.
  *
  * Validates that the number starts with a valid French prefix (01-09)
  * and contains exactly 10 digits.
