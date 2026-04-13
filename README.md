@@ -1,5 +1,7 @@
 # @buyandrent/react-fr
 
+[![npm version](https://img.shields.io/npm/v/@buyandrent/react-fr)](https://www.npmjs.com/package/@buyandrent/react-fr)
+
 React input components for French SaaS applications — address autocomplete, SIRET lookup, IBAN validation, phone formatting. No API key required.
 
 > **Used in production at [buyandrent.fr](https://buyandrent.fr)**
