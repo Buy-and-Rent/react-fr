@@ -1,10 +1,14 @@
 # @buyandrent/react-fr
 
 [![npm version](https://img.shields.io/npm/v/@buyandrent/react-fr)](https://www.npmjs.com/package/@buyandrent/react-fr)
+[![npm downloads](https://img.shields.io/npm/dm/@buyandrent/react-fr)](https://www.npmjs.com/package/@buyandrent/react-fr)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@buyandrent/react-fr)](https://bundlephobia.com/package/@buyandrent/react-fr)
+[![TypeScript](https://img.shields.io/badge/TypeScript-ready-blue)](https://www.typescriptlang.org/)
+[![license](https://img.shields.io/npm/l/@buyandrent/react-fr)](https://github.com/Buy-and-Rent/react-fr/blob/main/LICENSE)
 
 React input components for French SaaS applications - address autocomplete, SIRET lookup, IBAN validation, phone formatting. No API key required.
 
-> **Used in production at [buyandrent.fr](https://buyandrent.fr)**
+> **Used in production at [buyandrent.fr](https://buyandrent.fr)** | [Live demo (Storybook)](https://buy-and-rent.github.io/react-fr/)
 
 ## Install
 
