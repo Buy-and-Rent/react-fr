@@ -5,7 +5,7 @@ import type { PostalCodeInputProps, FrenchPostalCity } from "../../types";
 /**
  * Input for French postal codes (code postal).
  * When a 5-digit code is entered, queries api-adresse.data.gouv.fr to suggest matching cities.
- * No API key required — this is a free public API.
+ * No API key required - this is a free public API.
  *
  * Headless: unstyled by default, accepts className and style props.
  */
@@ -144,7 +144,7 @@ export function PostalCodeInput({
                   fontWeight: index === activeIndex ? "bold" : "normal",
                 }}
               >
-                {city.postcode} — {city.city}
+                {city.postcode} - {city.city}
               </li>
             ))
           )}

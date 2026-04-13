@@ -4,7 +4,7 @@ import type { AddressInputProps, FrenchAddress } from "../../types";
 
 /**
  * Autocomplete input for French addresses.
- * Uses the free api-adresse.data.gouv.fr API — no API key required.
+ * Uses the free api-adresse.data.gouv.fr API - no API key required.
  *
  * Features:
  * - Debounced search (configurable, default 300ms)

@@ -10,7 +10,7 @@ interface AddressSearchResult {
 /**
  * Hook that searches the French government address API (api-adresse.data.gouv.fr).
  * Returns matching addresses for the given query string.
- * No API key required — this is a free public API.
+ * No API key required - this is a free public API.
  *
  * @param query - Search string (e.g. "12 rue de la paix paris")
  * @param debounceMs - Debounce delay in ms (default: 300)

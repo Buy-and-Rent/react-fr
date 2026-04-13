@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@buyandrent/react-fr)](https://www.npmjs.com/package/@buyandrent/react-fr)
 
-React input components for French SaaS applications — address autocomplete, SIRET lookup, IBAN validation, phone formatting. No API key required.
+React input components for French SaaS applications - address autocomplete, SIRET lookup, IBAN validation, phone formatting. No API key required.
 
 > **Used in production at [buyandrent.fr](https://buyandrent.fr)**
 
@@ -37,11 +37,11 @@ function MyForm() {
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `onSelect` | `(address: FrenchAddress) => void` | — | Called when an address is selected |
+| `onSelect` | `(address: FrenchAddress) => void` | - | Called when an address is selected |
 | `debounceMs` | `number` | `300` | Debounce delay in ms |
-| `className` | `string` | — | CSS class name |
-| `style` | `CSSProperties` | — | Inline styles |
-| `...rest` | `InputHTMLAttributes` | — | All standard input props |
+| `className` | `string` | - | CSS class name |
+| `style` | `CSSProperties` | - | Inline styles |
+| `...rest` | `InputHTMLAttributes` | - | All standard input props |
 
 ### PostalCodeInput
 
@@ -64,9 +64,9 @@ function MyForm() {
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `onSelect` | `(value: FrenchPostalCity) => void` | — | Called when a city is selected |
-| `className` | `string` | — | CSS class name |
-| `style` | `CSSProperties` | — | Inline styles |
+| `onSelect` | `(value: FrenchPostalCity) => void` | - | Called when a city is selected |
+| `className` | `string` | - | CSS class name |
+| `style` | `CSSProperties` | - | Inline styles |
 
 ### SiretInput
 
@@ -92,10 +92,10 @@ function MyForm() {
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `onFetch` | `(company: FrenchCompany) => void` | — | Called with company data on valid SIRET |
-| `onError` | `(error: string) => void` | — | Called on validation or fetch error |
-| `className` | `string` | — | CSS class name |
-| `style` | `CSSProperties` | — | Inline styles |
+| `onFetch` | `(company: FrenchCompany) => void` | - | Called with company data on valid SIRET |
+| `onError` | `(error: string) => void` | - | Called on validation or fetch error |
+| `className` | `string` | - | CSS class name |
+| `style` | `CSSProperties` | - | Inline styles |
 
 ### IbanInput
 
@@ -119,9 +119,9 @@ function MyForm() {
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `onChange` | `(value: string, isValid: boolean) => void` | — | Called on every change with raw value and validity |
-| `className` | `string` | — | CSS class name |
-| `style` | `CSSProperties` | — | Inline styles |
+| `onChange` | `(value: string, isValid: boolean) => void` | - | Called on every change with raw value and validity |
+| `className` | `string` | - | CSS class name |
+| `style` | `CSSProperties` | - | Inline styles |
 
 ### PhoneInput
 
@@ -145,9 +145,9 @@ function MyForm() {
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `onChange` | `(value: string, isValid: boolean) => void` | — | Called on every change with raw value and validity |
-| `className` | `string` | — | CSS class name |
-| `style` | `CSSProperties` | — | Inline styles |
+| `onChange` | `(value: string, isValid: boolean) => void` | - | Called on every change with raw value and validity |
+| `className` | `string` | - | CSS class name |
+| `style` | `CSSProperties` | - | Inline styles |
 
 ## Hooks
 
@@ -194,8 +194,8 @@ All API calls use free, public French government APIs:
 
 | Component | API | Documentation |
 |-----------|-----|---------------|
-| AddressInput, PostalCodeInput | [api-adresse.data.gouv.fr](https://adresse.data.gouv.fr/api-doc/adresse) | Base Adresse Nationale — free, no key, no rate limit for reasonable use |
-| SiretInput | [recherche-entreprises.api.gouv.fr](https://recherche-entreprises.api.gouv.fr) | Recherche Entreprises — free, no key |
+| AddressInput, PostalCodeInput | [api-adresse.data.gouv.fr](https://adresse.data.gouv.fr/api-doc/adresse) | Base Adresse Nationale - free, no key, no rate limit for reasonable use |
+| SiretInput | [recherche-entreprises.api.gouv.fr](https://recherche-entreprises.api.gouv.fr) | Recherche Entreprises - free, no key |
 | IbanInput, PhoneInput | None | Client-side validation only |
 
 ## Styling

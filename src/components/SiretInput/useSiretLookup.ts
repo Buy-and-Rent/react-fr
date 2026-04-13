@@ -31,7 +31,7 @@ export function isValidSiretFormat(siret: string): boolean {
 /**
  * Hook that looks up a SIRET number on recherche-entreprises.api.gouv.fr.
  * Validates the format client-side first (14 digits, Luhn algorithm),
- * then fetches company data from the free public API — no API key required.
+ * then fetches company data from the free public API - no API key required.
  *
  * @param siret - The 14-digit SIRET number to look up
  */

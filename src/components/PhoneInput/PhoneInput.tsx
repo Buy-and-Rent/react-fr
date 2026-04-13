@@ -23,7 +23,7 @@ function isValidFrenchPhone(digits: string): boolean {
 
 /**
  * Input for French phone numbers (format: 06 12 34 56 78).
- * Client-side only — no API calls.
+ * Client-side only - no API calls.
  *
  * Validates that the number starts with a valid French prefix (01-09)
  * and contains exactly 10 digits.

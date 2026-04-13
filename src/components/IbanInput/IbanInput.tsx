@@ -43,7 +43,7 @@ function formatIban(raw: string): string {
 
 /**
  * Input for IBAN numbers with live formatting and validation.
- * Client-side only — no API calls. Validates using the ISO 13616 checksum algorithm.
+ * Client-side only - no API calls. Validates using the ISO 13616 checksum algorithm.
  *
  * Formats as user types in groups of 4: FR76 3000 1007 ...
  * Headless: unstyled by default, accepts className and style props.

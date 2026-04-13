@@ -5,7 +5,7 @@ import type { SiretInputProps } from "../../types";
 /**
  * Input for French SIRET numbers (14 digits).
  * Validates format client-side with the Luhn algorithm, then fetches company
- * data from recherche-entreprises.api.gouv.fr — no API key required.
+ * data from recherche-entreprises.api.gouv.fr - no API key required.
  *
  * Shows loading state during API fetch.
  * Headless: unstyled by default, accepts className and style props.
