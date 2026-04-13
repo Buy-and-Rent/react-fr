@@ -1,6 +1,6 @@
 {
   "name": "@buyandrent/react-fr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React input components for French SaaS apps - address, SIRET, IBAN, phone. No API key required.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -23,13 +23,33 @@
   },
   "keywords": [
     "react",
+    "react-component",
+    "france",
     "french",
     "address",
+    "autocomplete",
     "siret",
+    "siren",
     "iban",
     "phone",
-    "france",
-    "composants"
+    "postal-code",
+    "code-postal",
+    "input",
+    "form",
+    "validation",
+    "api-gouv",
+    "ban",
+    "base-adresse-nationale",
+    "headless",
+    "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Buy-and-Rent/react-fr.git"
+  },
+  "homepage": "https://github.com/Buy-and-Rent/react-fr#readme",
+  "bugs": {
+    "url": "https://github.com/Buy-and-Rent/react-fr/issues"
+  },
   "license": "MIT"
 }
